@@ -5,8 +5,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-  "postinstall": "prisma generate && prisma-vercel"
-  
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
